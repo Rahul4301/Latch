@@ -1,0 +1,9 @@
+{
+  "allowedTools": ["file_search", "file_read", "command_exec"],
+  "allowedExecutables": ["/bin/ls", "/usr/bin/mdfind", "/usr/bin/git", "/usr/bin/xcrun"],
+  "blockedTokens": ["rm", "sudo", "chmod", "chown", "launchctl", "cron", "osascript", "curl", "wget", "ssh", "scp", "rsync", "nc", "telnet", "|", "&&", ";", ">", ">>", "`", "$(", "mkfs", "dd"],
+  "maxActionsPerTurn": 5,
+  "defaultTimeoutSeconds": 10,
+  "maxStdoutBytes": 200000,
+  "maxStderrBytes": 200000
+}
